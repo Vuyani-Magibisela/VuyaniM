@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clubhouse Reg page</title>
+    <link rel="stylesheet" href= "stylesheets/formstyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="brand"><span>Clubhouse</span> Registration Page</h1>
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>Computer Clubhouse Permission Slip</h3>
+                <ul>
+                    <li><i class="fa fa-road"></i>Cnr Miriam Makeba between President Street and Jeppe 2001 </li>
+                    <li><i class="fa fa-phone"></i>011 639 8463 / 073 158 4845</li>
+                    <li><i class="fa fa-user"></i>Coordinator: Vuyani Magibisela</li>
+                    <li><i class="fa fa-envelope"></i>Vuyani.magibisela@sci-bono.co.za</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Registration</h3>
+                <div class="alert">
+                    Your massage has been sent
+                </div>
+              
+                <form id="contactForm">
+                    <fieldset>
+                    <p>
+                        <label>Surname</label>
+                        <input type="text" name="surname" id="surname" required>
+                    </p>
+                    <p>
+                        <label>First Name (IN FULL)</label>
+                        <input type="text" name="name" id="name" required>
+                    </p>
+                    <p>
+                        <label>ID Number</label>
+                        <input type="number" name="idNumber" id="idNumber" required>
+                    </p>
+                    <p>
+                        <label>Nationality</label>
+                        <input type="text" name="nationality" id="nationality" required>
+                    </p>
+                    <p>
+                        <label>Gender</label>
+                        <input type="text" name="Gender" id="gender" required>
+                    </p>
+                    <p>
+                        <label>Age</label>
+                        <input type="text" name="Age" id="age" required>
+                    </p>
+                    <p>
+                        <label>Home langauge</label>
+                        <input type="text" name="homeLanguage" id="homeLanguage" required>
+                    </p>
+                    <p>
+                        <label>Cell No.</label>
+                        <input type="number" name="Cell" id="cell" required>
+                    </p>
+                    <p>
+                        <label>Tell home</label>
+                        <input type="number" name="tel" id="tel" required>
+                    </p>
+                    <p>
+                        <label>E-Mail Address</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+
+                    <p class="full">
+                        <label>WHAT ARE YOUR INTERESTS</label>
+                        <textarea name="intrests" rows="5" id="intrests"></textarea>
+                    </p>
+                    <p class="full">
+                        <button type="submit">submit</button>
+                    </p>
+                    </fieldset>
+    
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+    <script src="js/formmain.js"></script>
+</body>
+</html>
